@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'account',
     'bootstrap4',
-    'rest_framework'
+    'rest_framework',
+    'knox',
 ]
 
 MIDDLEWARE = [
