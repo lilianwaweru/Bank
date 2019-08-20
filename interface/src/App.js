@@ -79,7 +79,12 @@ class App extends Component {
       <div>
         {this.state.todos.map(item => (
           <div key={item.id}>
-          <p><strong>Transaction History and Account Balance</strong></p>
+          <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+          <h2 class="display-4">Transaction History and Account Balance</h2>
+          
+          </div>
+          </div>
             <h1>Name:{item.name}</h1>
             <h2>Contact:{item.contact}</h2>
             <h3>Description:{item.description}</h3>
