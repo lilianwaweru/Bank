@@ -43,6 +43,7 @@
 
 
 import React, { Component } from 'react';
+import './App.css';
 
 class App extends Component {
   state = {
@@ -63,74 +64,36 @@ class App extends Component {
 
   render() {
     return (
-      <div className = "customer--list">
-      <table className = "table">
-        <thead key="thead">
-        <tr>      
-                <th>Name</th>
-                <th>Contact</th>
-                <th>Description</th>
-                <th>Amount</th>
-                <th>Date</th>
-                <th>Bank</th>
-                <th>Access</th>
-                <th>Transaction</th>
-            </tr>
-        </thead>
-      </table>
-      </div>      
+      <div className="container-fluid">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a className="navbar-brand" href="#">Online Banking</a>
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">     <span className="navbar-toggler-icon"></span>  
+      </button>
+    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+     <div className="navbar-nav">
+       <a className="nav-item nav-link" href="#">Account</a>
       
+     </div> 
+   </div>
+    </nav>  
       <div>
         {this.state.todos.map(item => (
           <div key={item.id}>
             <h1>{item.name}</h1>
             <h1>{item.contact}</h1>
+            <h1>{item.description}</h1>
+            <h1>{item.amount}</h1>
+            <h1>{item.date}</h1>
+            <h1>{item.bank}</h1>
+            <h1>{item.access}</h1>
+            <h1>{item.transaction}</h1>
           </div>
         ))}
       </div>
+      </div>
     );
   }
-
-  render() {
-
-    return (
-        <div  className="customer--list">
-            <table  className="table">
-            <thead  key="thead">
-            <tr>
-                
-                <th>Name</th>
-                <th>Contact</th>
-                <th>Description</th>
-                <th>Amount</th>
-                <th>Date</th>
-                <th>Bank</th>
-                <th>Access</th>
-                <th>Transaction</th>
-            </tr>
-            </thead>
-            <tbody>
-            {this.state.customers.map( c  =>
-                <tr>
-                <td>{c.id}  </td>
-                <td>{c.name}</td>
-                <td>{c.contact}</td>
-                <td>{c.description}</td>
-                <td>{c.amount}</td>
-                <td>{c.date}</td>
-                <td>{c.bank}</td>
-                <td>{c.access}</td>
-                <td>{c.transaction}</td>
-                <td>    
-                </td>
-            </tr>)}
-            </tbody>
-            </table>
-            
-        </div>
-        );
-  }
-}
+  
 }
 
 export default App;
