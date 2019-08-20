@@ -1,5 +1,6 @@
 {
   "name": "interface",
+  "homepage": "https://lilianwaweru.github.io/Bank/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

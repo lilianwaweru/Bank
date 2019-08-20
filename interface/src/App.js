@@ -52,7 +52,7 @@ class App extends Component {
 
   async componentDidMount() {
     try {
-      const res = await fetch('http://127.0.0.1:8000/api/history/');
+      const res = await fetch('https://bankonline12.herokuapp.com/api/history/');
       const todos = await res.json();
       this.setState({
         todos
