@@ -51,10 +51,8 @@ class App extends Component {
   };
 
   async componentDidMount() {
-    const proxyUrl = 'https://cors-anywhere.herokuapp.com/',
-    targetUrl = 'https://bankonline12.herokuapp.com/api/history/'
     try {
-      const res = await fetch(proxyUrl + targetUrl  );
+      const res = await fetch('https://bankonline12.herokuapp.com/api/history/');
       const todos = await res.json();
       this.setState({
         todos
