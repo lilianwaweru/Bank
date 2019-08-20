@@ -42,7 +42,7 @@ render() {
             <tbody>
             {this.state.customers.map( c  =>
                 <tr>
-                <td>{c.pk}  </td>
+                <td>{c.id}  </td>
                 <td>{c.name}</td>
                 <td>{c.contact}</td>
                 <td>{c.description}</td>
