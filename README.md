@@ -35,7 +35,7 @@ The different technologies that were used to develop this program include:
 
 ```
 ### Live Link
-Live link to my project:https://github.com/lilianwaweru/Bank
+Live link to my project:https://lilianwaweru.github.io/Bank/
 ### Contact Me
 contact me via email muthoniwawerumw2@gmail.com and slack at Lilian waweru
 
