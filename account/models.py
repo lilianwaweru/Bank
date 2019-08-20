@@ -30,7 +30,7 @@ class Banks(models.Model):
     
 class History(models.Model):
     name = models.CharField(max_length = 70)
-    contact = models.IntegerField(max_length = 10)
+    contact = models.IntegerField()
     description = models.TextField(max_length=300,default=0)
     amount = models.IntegerField(default=0)
     date = models.DateTimeField(auto_now_add=True)
@@ -42,7 +42,6 @@ class History(models.Model):
         self.save()
 
     def __str__(self):
-        return self.name 
-
+        return self.name
 
 

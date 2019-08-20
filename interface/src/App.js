@@ -79,14 +79,15 @@ class App extends Component {
       <div>
         {this.state.todos.map(item => (
           <div key={item.id}>
-            <h1>{item.name}</h1>
-            <h1>{item.contact}</h1>
-            <h1>{item.description}</h1>
-            <h1>{item.amount}</h1>
-            <h1>{item.date}</h1>
-            <h1>{item.bank}</h1>
-            <h1>{item.access}</h1>
-            <h1>{item.transaction}</h1>
+          <p><strong>Transaction History and Account Balance</strong></p>
+            <h1>Name:{item.name}</h1>
+            <h2>Contact:{item.contact}</h2>
+            <h3>Description:{item.description}</h3>
+            <h3>Amount Balance:{item.amount}</h3>
+            <h3>Date:{item.date}</h3>
+            <h3>Bank:{item.bank}</h3>
+            <h3>Access:{item.access}</h3>
+            <h3>Transaction:{item.transaction}</h3>
           </div>
         ))}
       </div>
