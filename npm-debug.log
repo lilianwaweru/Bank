@@ -1,0 +1,239 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'redux',
+1 verbose cli   'react-redux',
+1 verbose cli   'redux-thunk',
+1 verbose cli   'redux-devtools-extensions' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData redux
+8 silly fetchPackageMetaData react-redux
+9 silly fetchPackageMetaData redux-thunk
+10 silly fetchPackageMetaData redux-devtools-extensions
+11 silly fetchNamedPackageData redux
+12 silly mapToRegistry name redux
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/redux
+16 silly fetchNamedPackageData react-redux
+17 silly mapToRegistry name react-redux
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/react-redux
+21 silly fetchNamedPackageData redux-thunk
+22 silly mapToRegistry name redux-thunk
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/redux-thunk
+26 silly fetchNamedPackageData redux-devtools-extensions
+27 silly mapToRegistry name redux-devtools-extensions
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/redux-devtools-extensions
+31 verbose request uri https://registry.npmjs.org/redux-thunk
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 3:40:43 PM
+34 verbose request id 7210ad51dfadf34b
+35 http request GET https://registry.npmjs.org/redux-thunk
+36 verbose request uri https://registry.npmjs.org/redux-devtools-extensions
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 3:40:43 PM
+39 http request GET https://registry.npmjs.org/redux-devtools-extensions
+40 verbose request uri https://registry.npmjs.org/redux
+41 verbose request no auth needed
+42 info attempt registry request try #1 at 3:40:43 PM
+43 verbose etag W/"52a642fb38efe3ac36e762b7196d56a8"
+44 verbose lastModified Fri, 16 Aug 2019 14:47:28 GMT
+45 http request GET https://registry.npmjs.org/redux
+46 verbose request uri https://registry.npmjs.org/react-redux
+47 verbose request no auth needed
+48 info attempt registry request try #1 at 3:40:43 PM
+49 verbose etag W/"305347f9dbcc6f4abebf1235eabd8980"
+50 verbose lastModified Fri, 16 Aug 2019 14:46:45 GMT
+51 http request GET https://registry.npmjs.org/react-redux
+52 http 304 https://registry.npmjs.org/redux
+53 verbose headers { date: 'Mon, 19 Aug 2019 12:41:28 GMT',
+53 verbose headers   connection: 'keep-alive',
+53 verbose headers   'set-cookie':
+53 verbose headers    [ '__cfduid=dc45785c826973b469bd800bfa2ddddef1566218488; expires=Tue, 18-Aug-20 12:41:28 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+53 verbose headers   'cf-cache-status': 'HIT',
+53 verbose headers   'cache-control': 'max-age=300',
+53 verbose headers   'cf-ray': '508c33b0be8ecb8f-MBA',
+53 verbose headers   age: '40',
+53 verbose headers   etag: '"52a642fb38efe3ac36e762b7196d56a8"',
+53 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+53 verbose headers   'last-modified': 'Fri, 16 Aug 2019 14:47:28 GMT',
+53 verbose headers   vary: 'accept-encoding, accept',
+53 verbose headers   'x-amz-meta-rev': '390-10c504653cd9f37eeacf8b3389b60211',
+53 verbose headers   server: 'cloudflare' }
+54 silly get cb [ 304,
+54 silly get   { date: 'Mon, 19 Aug 2019 12:41:28 GMT',
+54 silly get     connection: 'keep-alive',
+54 silly get     'set-cookie':
+54 silly get      [ '__cfduid=dc45785c826973b469bd800bfa2ddddef1566218488; expires=Tue, 18-Aug-20 12:41:28 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+54 silly get     'cf-cache-status': 'HIT',
+54 silly get     'cache-control': 'max-age=300',
+54 silly get     'cf-ray': '508c33b0be8ecb8f-MBA',
+54 silly get     age: '40',
+54 silly get     etag: '"52a642fb38efe3ac36e762b7196d56a8"',
+54 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+54 silly get     'last-modified': 'Fri, 16 Aug 2019 14:47:28 GMT',
+54 silly get     vary: 'accept-encoding, accept',
+54 silly get     'x-amz-meta-rev': '390-10c504653cd9f37eeacf8b3389b60211',
+54 silly get     server: 'cloudflare' } ]
+55 verbose etag https://registry.npmjs.org/redux from cache
+56 verbose get saving redux to /home/lilian/.npm/registry.npmjs.org/redux/.cache.json
+57 http 304 https://registry.npmjs.org/react-redux
+58 verbose headers { date: 'Mon, 19 Aug 2019 12:41:28 GMT',
+58 verbose headers   connection: 'keep-alive',
+58 verbose headers   'set-cookie':
+58 verbose headers    [ '__cfduid=dd5c2db97aecf177599d44920db0b21fa1566218488; expires=Tue, 18-Aug-20 12:41:28 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+58 verbose headers   'cf-cache-status': 'HIT',
+58 verbose headers   'cache-control': 'max-age=300',
+58 verbose headers   'cf-ray': '508c33b10cefcb83-MBA',
+58 verbose headers   age: '4680',
+58 verbose headers   etag: '"305347f9dbcc6f4abebf1235eabd8980"',
+58 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+58 verbose headers   'last-modified': 'Fri, 16 Aug 2019 14:46:45 GMT',
+58 verbose headers   vary: 'accept-encoding, accept',
+58 verbose headers   'x-amz-meta-rev': '310-4c701d18e2d9ad93e17c11f01dc724a1',
+58 verbose headers   server: 'cloudflare' }
+59 silly get cb [ 304,
+59 silly get   { date: 'Mon, 19 Aug 2019 12:41:28 GMT',
+59 silly get     connection: 'keep-alive',
+59 silly get     'set-cookie':
+59 silly get      [ '__cfduid=dd5c2db97aecf177599d44920db0b21fa1566218488; expires=Tue, 18-Aug-20 12:41:28 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+59 silly get     'cf-cache-status': 'HIT',
+59 silly get     'cache-control': 'max-age=300',
+59 silly get     'cf-ray': '508c33b10cefcb83-MBA',
+59 silly get     age: '4680',
+59 silly get     etag: '"305347f9dbcc6f4abebf1235eabd8980"',
+59 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+59 silly get     'last-modified': 'Fri, 16 Aug 2019 14:46:45 GMT',
+59 silly get     vary: 'accept-encoding, accept',
+59 silly get     'x-amz-meta-rev': '310-4c701d18e2d9ad93e17c11f01dc724a1',
+59 silly get     server: 'cloudflare' } ]
+60 verbose etag https://registry.npmjs.org/react-redux from cache
+61 verbose get saving react-redux to /home/lilian/.npm/registry.npmjs.org/react-redux/.cache.json
+62 http 200 https://registry.npmjs.org/redux-thunk
+63 verbose headers { date: 'Mon, 19 Aug 2019 12:41:29 GMT',
+63 verbose headers   'content-type': 'application/json',
+63 verbose headers   'transfer-encoding': 'chunked',
+63 verbose headers   connection: 'keep-alive',
+63 verbose headers   'set-cookie':
+63 verbose headers    [ '__cfduid=d5145db83df4065a9e221d5b921b24daa1566218488; expires=Tue, 18-Aug-20 12:41:28 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+63 verbose headers   'cf-cache-status': 'REVALIDATED',
+63 verbose headers   'cache-control': 'max-age=300',
+63 verbose headers   'cf-ray': '508c33b0abe2cb8b-MBA',
+63 verbose headers   etag: 'W/"cc72fa529c7d9bfca25bcbae4be85151"',
+63 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+63 verbose headers   'last-modified': 'Fri, 01 Mar 2019 19:33:20 GMT',
+63 verbose headers   vary: 'accept-encoding, accept',
+63 verbose headers   'x-amz-meta-rev': '117-de3060795a120455d64ea4547c4b3868',
+63 verbose headers   server: 'cloudflare',
+63 verbose headers   'content-encoding': 'gzip' }
+64 silly get cb [ 200,
+64 silly get   { date: 'Mon, 19 Aug 2019 12:41:29 GMT',
+64 silly get     'content-type': 'application/json',
+64 silly get     'transfer-encoding': 'chunked',
+64 silly get     connection: 'keep-alive',
+64 silly get     'set-cookie':
+64 silly get      [ '__cfduid=d5145db83df4065a9e221d5b921b24daa1566218488; expires=Tue, 18-Aug-20 12:41:28 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+64 silly get     'cf-cache-status': 'REVALIDATED',
+64 silly get     'cache-control': 'max-age=300',
+64 silly get     'cf-ray': '508c33b0abe2cb8b-MBA',
+64 silly get     etag: 'W/"cc72fa529c7d9bfca25bcbae4be85151"',
+64 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+64 silly get     'last-modified': 'Fri, 01 Mar 2019 19:33:20 GMT',
+64 silly get     vary: 'accept-encoding, accept',
+64 silly get     'x-amz-meta-rev': '117-de3060795a120455d64ea4547c4b3868',
+64 silly get     server: 'cloudflare',
+64 silly get     'content-encoding': 'gzip' } ]
+65 verbose get saving redux-thunk to /home/lilian/.npm/registry.npmjs.org/redux-thunk/.cache.json
+66 http 404 https://registry.npmjs.org/redux-devtools-extensions
+67 verbose headers { date: 'Mon, 19 Aug 2019 12:41:29 GMT',
+67 verbose headers   'content-type': 'application/json',
+67 verbose headers   'content-length': '21',
+67 verbose headers   connection: 'keep-alive',
+67 verbose headers   'set-cookie':
+67 verbose headers    [ '__cfduid=dc45785c826973b469bd800bfa2ddddef1566218488; expires=Tue, 18-Aug-20 12:41:28 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+67 verbose headers   'cf-cache-status': 'MISS',
+67 verbose headers   'cache-control': 'max-age=300',
+67 verbose headers   'cf-ray': '508c33b2c85ecb8f-MBA',
+67 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+67 verbose headers   vary: 'accept-encoding, accept',
+67 verbose headers   server: 'cloudflare' }
+68 silly get cb [ 404,
+68 silly get   { date: 'Mon, 19 Aug 2019 12:41:29 GMT',
+68 silly get     'content-type': 'application/json',
+68 silly get     'content-length': '21',
+68 silly get     connection: 'keep-alive',
+68 silly get     'set-cookie':
+68 silly get      [ '__cfduid=dc45785c826973b469bd800bfa2ddddef1566218488; expires=Tue, 18-Aug-20 12:41:28 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+68 silly get     'cf-cache-status': 'MISS',
+68 silly get     'cache-control': 'max-age=300',
+68 silly get     'cf-ray': '508c33b2c85ecb8f-MBA',
+68 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+68 silly get     vary: 'accept-encoding, accept',
+68 silly get     server: 'cloudflare' } ]
+69 silly fetchPackageMetaData Error: Not found : redux-devtools-extensions
+69 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+69 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+69 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+69 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+69 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+69 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+69 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+69 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+69 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+69 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+69 silly fetchPackageMetaData  error for redux-devtools-extensions { Error: Not found : redux-devtools-extensions
+69 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+69 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+69 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+69 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+69 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+69 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+69 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+69 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+69 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+69 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+69 silly fetchPackageMetaData   pkgid: 'redux-devtools-extensions',
+69 silly fetchPackageMetaData   statusCode: 404,
+69 silly fetchPackageMetaData   code: 'E404' }
+70 silly rollbackFailedOptional Starting
+71 silly rollbackFailedOptional Finishing
+72 silly runTopLevelLifecycles Starting
+73 silly runTopLevelLifecycles Finishing
+74 silly install printInstalled
+75 verbose stack Error: Not found : redux-devtools-extensions
+75 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+75 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+75 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+75 verbose stack     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+75 verbose stack     at emitTwo (events.js:126:13)
+75 verbose stack     at Request.emit (events.js:214:7)
+75 verbose stack     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+75 verbose stack     at emitOne (events.js:121:20)
+75 verbose stack     at Request.emit (events.js:211:7)
+75 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+76 verbose statusCode 404
+77 verbose pkgid redux-devtools-extensions
+78 verbose cwd /home/lilian/Documents/task
+79 error Linux 4.15.0-55-generic
+80 error argv "/usr/bin/node" "/usr/bin/npm" "i" "redux" "react-redux" "redux-thunk" "redux-devtools-extensions"
+81 error node v8.10.0
+82 error npm  v3.5.2
+83 error code E404
+84 error 404 Not found : redux-devtools-extensions
+85 error 404
+86 error 404 'redux-devtools-extensions' is not in the npm registry.
+87 error 404 You should bug the author to publish it (or use the name yourself!)
+88 error 404 Note that you can also install from a
+89 error 404 tarball, folder, http url, or git url.
+90 verbose exit [ 1, true ]
